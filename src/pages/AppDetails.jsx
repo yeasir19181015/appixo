@@ -107,11 +107,7 @@ export default function AppDetails() {
           </ResponsiveContainer>
         </div>
 
-        {/* Description */}
-        <div className="bg-white rounded-2xl p-6">
-          <h2 className="text-lg font-bold text-gray-900 mb-3">Description</h2>
-          <p className="text-gray-600 text-sm leading-relaxed">{app.description}</p>
-        </div>
+        
 
       </div>
     </div>
