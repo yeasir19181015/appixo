@@ -1,9 +1,22 @@
+import img1 from "../assets/demo-app (1).webp";
+import img2 from "../assets/demo-app (2).webp";
+import img3 from "../assets/demo-app (3).webp";
+import img4 from "../assets/demo-app (4).webp";
+import img5 from "../assets/demo-app (5).webp";
+import img6 from "../assets/demo-app (6).webp";
+import img7 from "../assets/demo-app (1).webp";
+import img8 from "../assets/demo-app (2).webp";
+import img9 from "../assets/demo-app (3).webp";
+import img10 from "../assets/demo-app (4).webp";
+import img11 from "../assets/demo-app (5).webp";
+import img12 from "../assets/demo-app (6).webp";
+
 const apps = [
   {
     id: 1,
     title: "Forest: Focus For Productivity",
     companyName: "Seekrtech",
-    image: "https://play-lh.googleusercontent.com/ALOmJMuoVJlzNjBFQSaP_TT1k_YfZHMBN7gRo1GhB3dAtDLx5VmQgOkzYLFEWS7tFg=w240-h480-rw",
+    image: img1,
     description: "Forest is an app helping you stay focused and present. If you want to break your phone addiction and stay focused, plant a tree. Leave your phone alone, and the tree will grow. Pick up your phone, and the tree will die. Forest provides an interesting solution for you to get off your phone.",
     size: 258,
     reviews: 54000,
@@ -21,7 +34,7 @@ const apps = [
     id: 2,
     title: "SmPlan: ToDo List With Reminder",
     companyName: "productive.io",
-    image: "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzlEkzajpXhBFjIVpJVgpVGOOlGWBMTFRgvJFY8O6aRZ2RrONA=w240-h480-rw",
+    image: img2,
     description: "SmPlan is a smart planner and task manager app with reminders. It helps you create to-do lists, set reminders, and manage your daily schedule efficiently. Perfect for personal and professional task management.",
     size: 291,
     reviews: 54000,
@@ -39,7 +52,7 @@ const apps = [
     id: 3,
     title: "FLIP - Focus Timer For Study",
     companyName: "UIFace Inc.",
-    image: "https://play-lh.googleusercontent.com/Ure3JKDsRhqyfDmXPSCMMvAHXkSVDWE-FDiZnn0GLcPpV-G0sUMHW8e3GHl5JWLVRA=w240-h480-rw",
+    image: img3,
     description: "FLIP is a focus timer app that helps you study and work efficiently. Place your phone face down to start the timer and stay focused. Track your study sessions and improve your concentration over time.",
     size: 180,
     reviews: 42000,
@@ -57,7 +70,7 @@ const apps = [
     id: 4,
     title: "Pomocat - Cute Pomodoro Timer",
     companyName: "Pomocat Studio",
-    image: "https://play-lh.googleusercontent.com/l7-GHpGHbMvMvFjjYEEEMSPBQmZ-MVTUH_QFfbU_MKimFfzUOjwFbMb9pOHBpnxRqA=w240-h480-rw",
+    image: img4,
     description: "Pomocat is an adorable Pomodoro timer app featuring a cute cat companion. Use the Pomodoro technique to boost your productivity with 25-minute focus sessions followed by short breaks.",
     size: 120,
     reviews: 31000,
@@ -75,7 +88,7 @@ const apps = [
     id: 5,
     title: "Time Planner: Schedule & Tasks",
     companyName: "Albul Works",
-    image: "https://play-lh.googleusercontent.com/LgGBMdHLSRmEbJbmRIHlv3RaRBqQvxR-01W6TomWfQzDXIxlNKp3nqPpMlMWGxFWLA=w240-h480-rw",
+    image: img5,
     description: "Time Planner is a smart daily schedule and task management app. Plan your day, set goals, and track your time effectively. Get detailed reports on how you spend your time.",
     size: 210,
     reviews: 28000,
@@ -93,7 +106,7 @@ const apps = [
     id: 6,
     title: "Morning Habits - Daily Routine",
     companyName: "Leap Fitness Group",
-    image: "https://play-lh.googleusercontent.com/dxaFUMsrL4RHgRuOAr9pQhIJFcDHBpADflm2WBbobdxyMRGOWViqRU9Y_ByOWx0LGKE=w240-h480-rw",
+    image: img6,
     description: "Morning Habits helps you build a powerful morning routine. Track your daily habits, set morning goals, and start each day with purpose. Build consistency and transform your life one morning at a time.",
     size: 165,
     reviews: 19000,
@@ -111,7 +124,7 @@ const apps = [
     id: 7,
     title: "Focus Plant: Pomodoro Forest",
     companyName: "Flantasy Garden",
-    image: "https://play-lh.googleusercontent.com/6J8Tl2KgGNxXdRJjbBCHMNE5JQGmVqruvILqT-HpHa-xyIxF9R2QZ_WcxCBaHPMn9s=w240-h480-rw",
+    image: img7,
     description: "Focus Plant combines Pomodoro technique with a virtual garden. Stay focused and grow your digital plants. The more you focus, the more your garden flourishes. A perfect blend of productivity and relaxation.",
     size: 195,
     reviews: 22000,
@@ -129,7 +142,7 @@ const apps = [
     id: 8,
     title: "Alarmy - Alarm Clock & Sleep",
     companyName: "Delight Room",
-    image: "https://play-lh.googleusercontent.com/7EDSQ9jMDJdX8lm29jB4qJCJM_g8UQv7j4tq-8PBOJ6MFZ7Ts7VxgRXlkTRhM6uf0g=w240-h480-rw",
+    image: img8,
     description: "Alarmy is the world's most annoying alarm clock app — and that is exactly the point. It forces you to wake up by completing missions like taking photos, solving math problems, or shaking your phone.",
     size: 310,
     reviews: 67000,
@@ -147,7 +160,7 @@ const apps = [
     id: 9,
     title: "Todoist: To-Do List & Planner",
     companyName: "Doist Inc.",
-    image: "https://play-lh.googleusercontent.com/BiSMCuoFKhqzXSmrYkdHnk7lfASaF2BDHiKAfXriCN1l_YoGRb7trbGXl3fKEBpHFg=w240-h480-rw",
+    image: img9,
     description: "Todoist is one of the world's most popular to-do list apps. Organize your work and life, set priorities, and track your goals. Available on all devices and integrates with your favorite tools.",
     size: 275,
     reviews: 89000,
@@ -165,7 +178,7 @@ const apps = [
     id: 10,
     title: "Notion - Notes & Docs",
     companyName: "Notion Labs Inc.",
-    image: "https://play-lh.googleusercontent.com/ejMTrDRSSqMxSsXLI5nqGVFXsM57O4HqjpLMvgR3pnBLRGLfx8kB3Vc-lCMlxEeXA=w240-h480-rw",
+    image: img10,
     description: "Notion is your all-in-one workspace for notes, tasks, wikis, and databases. Write, plan, collaborate, and organize everything in one tool. Used by millions of individuals and teams worldwide.",
     size: 340,
     reviews: 120000,
@@ -183,7 +196,7 @@ const apps = [
     id: 11,
     title: "Habitica - Habit Tracker",
     companyName: "HabitRPG Inc.",
-    image: "https://play-lh.googleusercontent.com/o5F9JKQIG73AJpFpVgL26qVAl_4NM2Rfb_OKp_gjSL7rr0RL-eJHEbGhbbNKNqg7Gg=w240-h480-rw",
+    image: img11,
     description: "Habitica turns your life into a role-playing game. Build habits and daily routines by completing tasks to level up your character. Fight monsters, earn rewards, and join parties with friends.",
     size: 220,
     reviews: 45000,
@@ -201,7 +214,7 @@ const apps = [
     id: 12,
     title: "Calm - Sleep & Meditation",
     companyName: "Calm.com Inc.",
-    image: "https://play-lh.googleusercontent.com/0WDmFHTH9MNaTiXyQJRbB1BPh7V9bQ6j1r8oW_0o-l_bQ0AImHTJR6a7qiODRWASIA=w240-h480-rw",
+    image: img12,
     description: "Calm is the number one app for sleep, meditation, and relaxation. Guided meditation sessions, sleep stories, breathing programs, and relaxing music are all available in one beautiful app.",
     size: 285,
     reviews: 150000,
